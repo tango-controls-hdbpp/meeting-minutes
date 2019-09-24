@@ -96,6 +96,8 @@ They got the following advices:
 - Create DB partitions in their long term archive DB
 - Ensure DB files are smaller than the available RAM
 
+It was agreed that having a yearly dedicated face-to-face HDB++ meeting is the best for the coming years. Some additional teleconferences could be organized if needed, to help the coordination work.
+
 ### Icalepcs
 
 Reynald shared a link on icalepcs-2019 channel from tango-controls slack to be able to collaborate on the HDB++ paper for ICALEPCS.
