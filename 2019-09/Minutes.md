@@ -18,7 +18,7 @@ institutes (DB backend used, partitions management, backups, statistics, decimat
 Stuart mentioned that indexes are currently taking about 60% of disk usage with the current timescale schema. 
 It was suggested to investigate whether some indexes or keys (primary and foreign keys) could be removed to improve performances and disk usage.
 
-A REST API inspired by the Tango REST API was developed/specified at Soleil for HDB and they use Grafana, React JS and Django to display the HDB data from a web browser (only scalar attributes are currently supported.
+A REST API inspired by the Tango REST API was developed/specified at Soleil for HDB and they use Grafana, React JS and Django to display the HDB data from a web browser (only scalar attributes are currently supported).
 It was suggested to share this REST API with the HDB++ community since it could be used as well to define queries to get HDB++ data.
 
 Sergi mentioned that PyTangoArchiving will support Postgres and timescale backends, but not before November.
@@ -36,7 +36,7 @@ Graziano said that InnoDB is better than MyIsam to retrieve data because there a
 InnoDB is slower than MyIsam for inserting data.
 
 Mangesh presented the requirements for SKA Engineering Data Archive which will use HDB++. 
-The presented numbers were very impressive and can be seen on their slides. They were advised to avoid to store everything at high frequency and to rather tune carefully their archive event thresholds to ensure they store only relevant data.
+The presented numbers were very impressive and can be seen on their slides. They were advised to avoid storing everything at high frequency and to rather tune carefully their archive event thresholds to ensure they store only relevant data.
 They were recommended to have a look at ScyllaDB, a drop-in Apache Cassandra alternative written in C++.
 
 Matteo described briefly the work he did with the Elastic Search backend he developed, where the data was stored in json format.
@@ -68,7 +68,7 @@ A bulk download service could then be used to help the user to be notified when 
 Stuart expressed the wish to have a look at GraphQL first, which could be used for general purpose extraction.
 
 A discussion took place on how the HDB++ archiving process could be improved to take advantage of batch inserts performances.
-Graziano suggested to modify the HdbEventSubscriber and libhdbpp libraries in order to be able to pass all the elements current contained in hdbpp-es received events queue to the libhdbpp implementation when the queue contains more than one element.
+Graziano suggested to modify the HdbEventSubscriber and libhdbpp libraries in order to be able to pass all the elements currently contained in hdbpp-es received events queue to the libhdbpp implementation when the queue contains more than one element.
 The libhdbpp implementation could then use batches to insert all the elements of this queue.
 Before implementing these changes, it is important to modify the type used to store the event queue (vector currently) to a more efficient collection type. 
 Lorenzo suggested to have a look at a lock-less structure for this queue. So this change will require the following steps:
@@ -102,7 +102,7 @@ Reynald shared a link on icalepcs-2019 channel from tango-controls slack to be a
 
 The Tango workshop at ICALEPCS 2019 will provide an introduction to HDB++.
 Sergi and Reynald will share a 1 hour slot to present the HDB++ concepts and tools.
-The agenda of workshop is available at https://indico.esrf.fr/indico/event/34
+The agenda of the workshop is available at https://indico.esrf.fr/indico/event/34
 
 ### Benchmarking
 
@@ -127,7 +127,7 @@ Graziano pointed out that there is currently an hard-coded limit of 10000 attrib
 Stuart presented what he did on the hdbppMetrics repository and the patches provided in this repo which could be used to patch the event subscriber code.
 It was suggested to move these patches to the event subscriber code and to give the possibility to enable these performances measurements at run time or by changing the HdbEventSubscriber configuration.
 
-Following the results of the benchmarks done by Graziano, a discussion took place and the following timescale blog post was mentioned by Stuart and could help to understand the results and to better understand when timescale can provide better performances than PosgreSQL: https://blog.timescale.com/blog/timescaledb-vs-6a696248104e/amp/
+Following the results of the benchmarks done by Graziano, a discussion took place and the following timescale blog post was mentioned by Stuart and could help to understand the results and to better understand when timescale can provide better performances than PosgreSQL: https://blog.timescale.com/blog/timescaledb-vs-6a696248104e/amp/ .
 Sergi suggested to repeat the tests with spectrum attributes.
 
 We agreed on the following goals and metrics as a first step:
@@ -156,7 +156,7 @@ Stuart suggested the possibility for the HdbEventSubscriber to automatically cre
 
 ### Tango kernel
 
-Lorenzo suggested that a week of training to share the knowledge related to the Tango C++ library and PyTango should be organized next week.
+Lorenzo suggested that a week of training to share the knowledge related to the Tango C++ library and PyTango should be organized next year.
 According to Matteo, it would be useful to produce some class diagrams. This could be combined with a code camp to solve issues and exercises.
 
 A first draft of RFCs should be done first. Then, after the training, the RFCs could be refined.
