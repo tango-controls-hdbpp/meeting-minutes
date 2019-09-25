@@ -156,12 +156,13 @@ All the participants to this discussion agreed this would be useful.
 
 Stuart suggested the possibility for the HdbEventSubscriber to automatically create an entry in `att_conf` table the first time it receives an event for an attribute which is not yet in att_conf.
 
-### Tango kernel
+### Tango kernel (off-topic)
 
 Lorenzo suggested that a week of training to share the knowledge related to the Tango C++ library and PyTango should be organized next year.
 According to Matteo, it would be useful to produce some class diagrams. This could be combined with a code camp to solve issues and exercises.
 
 A first draft of RFCs should be done first. Then, after the training, the RFCs could be refined.
+This topic to be presented/discussed at the next Tango kernel teleconf.
 
 ## Outcome
 
