@@ -50,7 +50,7 @@ Contributions are always welcome of course.
 
 - ESRF deployed TimescaleDB on 3 nodes (1 master, 2 replicas), using Patroni.
 - The disk usage is currently about 800 GB on each node (the system is up since July 2019 but the ESRF was in a long shutdown until december 2019).
-Stuart said that the best would be to use nodes with 8TB SSDs in the future.
+Stuart said that the best would be to use nodes with 8 TB SSDs in the future.
 - Aggregations are in operation. This is for all attributes and this is kept for 12 months maximum.
 A backup procedure will have to be implemented in order to eventually backup the result of these aggregations before this 12 months expiration.
 
@@ -64,7 +64,7 @@ A backup procedure will have to be implemented in order to eventually backup the
 
 ## HDB++ @ ELETTRA
 
-- Elettra is using MySQL wiyth InnoDB engine.
+- Elettra is using MySQL with InnoDB engine.
 - Last 2 years of data are kept in the live HDB++ database (~ 500 GB).
 - Data older than 2 years is transferred to another database instance.
 - ProxySQL is used to redirect queries to the correct database.
@@ -90,10 +90,9 @@ Soleil is still using the legacy Tango HDB and may switch to HDB++ during the up
 
 ## jhdbViewer
 
-The support for handling several HDB++ databases from the same jhdbviewer has been discussed.
+- The support for handling several HDB++ databases from the same jhdbviewer has been discussed.
 Jean-Luc Pons said that this feature should not be too difficult to implement.
-
-It has been suggested to add the possibility to apply a filter on the tree and to add a search bar.
+- It has been suggested to add the possibility to apply a filter on the tree and to add a search bar.
 Jean-Luc said that this would be more complex to implement.
 
 ## Web viewers
@@ -102,8 +101,7 @@ Jean-Luc said that this would be more complex to implement.
 
 ## Next meetings
 
-Lorenzo proposed to have a face-to-face HDB++ meeting at the end of 2020.
-
+Lorenzo proposed to have a face-to-face HDB++ meeting at the end of 2020.  
 We agreed to have regular HDB++ meetings every ~2 months. So the next one will take place in June.
 
 **Action - ESRF**: Send a Framadate Poll to find the best date for the next HDB++ teleconf meeting.
