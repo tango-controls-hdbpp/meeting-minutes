@@ -12,6 +12,12 @@ To be held on 2020/06/26 at 15:00 CEST on zoom.
      - 4/ We are considering using our central data store (using ESS CSI)   - pros/cons?
      - 5/ Are there any test/use cases on a Kubernetes cluster?  (TimescaleDB, load-balancing)
      - 6/ Will there be any Analytical layer? (i.e Spark )
- 3. News on recent developments
- 4. AOB
- 
+ 3. Benchmarking brainstorming (Topic proposed by Graziano)
+    - Goals:
+        - automate tests
+        - make test environment easily sharable between institutes
+    - Questions:  
+        - having everything in dockers could be a good idea?
+        - using ska docker tango-archiver (https://github.com/ska-telescope/ska-docker/tree/master/docker/tango/tango-archiver) could be a good starting point?
+ 4. News on recent developments
+ 5. AOB
