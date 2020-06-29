@@ -1,4 +1,4 @@
-# Tango HDB++ collaboration Teleconf Meeting - 2020/04/15
+# Tango HDB++ collaboration Teleconf Meeting - 2020/06/26
 
 Held on 2020/06/26 on Zoom.
 
