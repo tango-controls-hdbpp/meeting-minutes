@@ -87,11 +87,13 @@ Graziano presented [some slides](hdb++_benchmark_docker_2020.pdf) showing the di
   - using ska docker tango-archiver (https://github.com/ska-telescope/ska-docker/tree/master/docker/tango/tango-archiver) could be a good starting point?
   - contributions?
   ESRF can maintain the TimescaleDB docker image created by Stuart  
-  Other contributions?
+  ALBA proposed to maintain the MySQL/MariaDB images.
 
 Graziano said he read several papers discussing the using of Docker for Benchmarking.
 He said that the results should be taken with great care.
 Having Docker images for many HDB++ components is in any case an advantage for the HDB++ community.
+
+The work related to benchmarks could be incorporated into [hdbpp-metrics](https://github.com/tango-controls-hdbpp) git repository.
 
 About the SKA docker question, this should be clarified with s2innovation.
 
@@ -105,8 +107,21 @@ Damien merged the following PRs recently:
 - Integrated build ([hdbpp-cm#11](https://github.com/tango-controls-hdbpp/hdbpp-cm/pull/11))
 - Exp refactor ([libhdbpp#3](https://github.com/tango-controls-hdbpp/libhdbpp/pull/3))
 
-INAF/SKA have prepared a demo using Grafana with HDB++ and also using APM to trace requests among the system.
+Damien will create a PR for hdbpp-es refactoring.
+
+INAF/SKA have prepared a demo using Grafana with HDB++ and also using APM to trace transactions among the system.  
 Juande said he will add a link to the demo in these minutes.
+They are experimenting with Elastic Search too.  
+
+NCRA developed a Pod with HDB++ MariaDB.
+
+Sergi has been working on pytangoarchiving to provide some tools to do decimation and aggregation which can be executed 
+by cron. He said it could be useful to add a configuration parameter to specify the preferred averaging/decimation method.
+
+Graziano is currently porting libhdbpp-mysql to CMake and integrating the recent changes done in libhdbpp.
+
+Concerning jhdbviewer, a refactoring is currently in progress. Once this refactoring is over, the support for aggregates 
+will be added and after that the support for Multiple DB backends will be implemented. 
 
 **Action - SKAO**: Add a link to Grafana with HDB++ Demo in these minutes
 
