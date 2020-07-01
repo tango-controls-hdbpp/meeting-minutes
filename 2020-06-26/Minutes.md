@@ -76,7 +76,7 @@ It should be possible to use Spark if deemed necessary in the future.
 
 ## Benchmarking brainstorming (Topic proposed by Graziano)
 
-Graziano presented a slide showing the different components which could be docker containerized.
+Graziano presented [some slides](hdb++_benchmark_docker_2020.pdf) showing the different components which could be docker containerized.
 
 - Goals:
   - automate tests
