@@ -1,6 +1,6 @@
-# HDB++ Teleconference Meeting - 2020/09/03
+# HDB++ Teleconference Meeting - 2020/09/04
 
-To be held on 2020/09/03 at 14:00 CEST on zoom.
+To be held on 2020/09/04 at 14:00 CEST on zoom.
 
 # Agenda
  
