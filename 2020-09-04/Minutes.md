@@ -2,7 +2,7 @@
 
 Held on 2020/09/04 on Zoom.
 
-Participants: Reynald Bourtembourg, Damien Lacoste (ESRF), Sergi Rubio (ALBA),
+Participants: Reynald Bourtembourg, Damien Lacoste (ESRF), Sergi Rubio (ALBA),  
               Lorenzo Pivetta, Graziano Scalamera, Giacomo Strangolino (ELETTRA),  
               Matteo Di Carlo (INAF), Mirjam Lindberg, Abdullah Amjad (Max IV)
               
