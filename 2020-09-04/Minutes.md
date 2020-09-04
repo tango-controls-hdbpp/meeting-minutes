@@ -123,7 +123,7 @@ developers.
 ### Next HDB++ Teleconf Meeting
 
 It was agreed to keep the ~2 months period between 2 HDB++ Teleconf Meetings.  
-The next HDB++ Teleconf meeting will take place on Friday 6th November 2020 at 14:00 CEST.
+The next HDB++ Teleconf meeting will take place on Friday 6th November 2020 at 14:00 CET.
 
 ## Summary of remaining actions
 
