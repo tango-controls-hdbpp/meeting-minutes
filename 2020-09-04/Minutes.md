@@ -8,7 +8,7 @@ Participants: Reynald Bourtembourg, Damien Lacoste (ESRF), Sergi Rubio (ALBA),
               
 # Minutes
 
-## Status of [Actions defined in the previous meetings](https://github.com/tango-controls-hdbpp/meeting-minutes/blob/master/2020-04-15/Minutes.md#summary-of-remaining-actions)
+## Status of [Actions defined in the previous meetings](https://github.com/tango-controls-hdbpp/meeting-minutes/blob/master/2020-06-26/Minutes.md#summary-of-remaining-actions)
 
 **Action - ESRF**: Add HDB++ timescaleDB documentation to Tango HDB++ documentation on readthedocs. **Still needs to be done**
 
