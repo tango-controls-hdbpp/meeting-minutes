@@ -51,6 +51,8 @@ configuration file and push this solution to tango-controls-hdbpp Github organiz
 
 Matteo presented the work and investigations he has done on using Grafana to display dashboards presenting HDB++ related data.
 
+![alt text](TANGO-grafana.jpg "Tango Grafana")
+
 The git repository can be found on https://gitlab.com/ska-telescope/TANGO-grafana
 
 Matteo worked on the Data Source part of Grafana to be able to display HDB++ related data. He said that it is 
