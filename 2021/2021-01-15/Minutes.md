@@ -38,7 +38,7 @@ configuration file and push this solution to tango-controls-hdbpp Github organiz
 
 **Action - ESRF**: Share scripts used at ESRF to export data with MaxIV.
 **The scripts are now available on [hdbpp-timescale-project](https://github.com/tango-controls-hdbpp/hdbpp-timescale-project/tree/master/resources/cassandra-import) repository.
-Graziano suggested during the meeting to have a look at [pt-fifo-script](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html) 
+Graziano suggested during the meeting to have a look at [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html) 
 to help dealing with huge csv files. It was suggested to have a look at [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) to improve import performances in timescaledb.**
 
 **Action - ESRF (Damien):** Create a PR in libhdbpp project to add a skeleton implementation to guide developers who want to develop a new
@@ -75,7 +75,7 @@ In Alba, they will try(/suggest?) to test with events generators running in diff
 
 Johan Forsberg said he would be interested in seeing some benchmarking results with array types.
 
-Graziano said that without clustering timescaledb was slower than MySQL and with clustering, timescaledb 
+Graziano said, about querying performances, that without clustering timescaledb was slower than MySQL-InnoDB and with clustering, timescaledb 
 was slightly faster than MySQL.
 
 Damien reminded that automatic clustering and compression is now available for free in the latest timescaledb version.
