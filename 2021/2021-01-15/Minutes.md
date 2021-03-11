@@ -47,14 +47,6 @@ HDB++ library for their backend and add some documentation on readthedocs to doc
 
 **Action - ALBA (Sergi)**: Move 2 repositories (periodic archivers + python module to insert data into HDB++ DB) used for the periodic archivers to tango-controls-hdbpp organization.
 
-**Action - All Institutes**: Send some slides to Lorenzo Pivetta (1 min presentation max) to present the status of HDB++
-in the institutes (deployment status and recent development on HDB++ project, or resources that can be shared with the
-community). Lorenzo will present the slides during the coming Tango collaboration virtual meeting on 17th or 18th november 2020)
-**Done**
-
-**Action - Lorenzo**: Book a slot for an HDB++ presentation on the coming Tango collaboration virtual meeting (Register on indico:
-https://indico.esrf.fr/indico/event/49/ ). Participants should register too. **Done**
-
 ## News on recent developments
 
 Giacomo reported that Cumbia now integrates HDB++ and merges HDB++ data with live data in graphs.  
@@ -129,19 +121,14 @@ The next HDB++ Teleconf meeting will take place on Friday 12th March 2021 at 11:
 **Action - MaxIV**: Contact TimescaleDB experts to know more about TimescaleDB with load balancing and share
 the answers with the HDB++ community.
 
-**Action - Sergi, Damien, Lorenzo, Max IV, Giacomo**: Sergi should guide Damien in implementing support for TimescaleDB in pytangoarchiving.
+**Action - Sergi, Damien, Lorenzo, Max IV, Giacomo**:
+Sergi should guide Damien in implementing support for TimescaleDB in pytangoarchiving.
 Sergi should review the PR created by Damien on pytangoarchiving (https://github.com/tango-controls/PyTangoArchiving/pull/18).
-Max IV is also interested in this development, they are invited to review https://github.com/tango-controls/PyTangoArchiving/pull/18
-which is a proposal from Damien for an AbstractReader.  
+Max IV is invited to review https://github.com/tango-controls/PyTangoArchiving/pull/18 which is a proposal from Damien for an AbstractReader.  
 Sergi will write the MySQL backend and review and approve https://github.com/tango-controls/PyTangoArchiving/pull/18.  
 Sergi will share the work with MaxIV for support with Cassandra.  
-Lorenzo said that the Python Extraction library should follow the concepts of the C++ extraction Library.  
-Some of these concepts are described at some point in this section of the documentation
-https://tango-controls.readthedocs.io/en/latest/administration/services/hdbpp/hdb++-design-guidelines.html?highlight=data%20extraction#deployment-best-practices.
-It seems like the title of the section "Data Extraction" got lost when the documentation was imported into readthedocs.  
 Lorenzo is invited to review https://github.com/tango-controls/PyTangoArchiving/pull/18 as well to ensure the concepts
 used by the C++ extraction library are kept.  
-Sergi said there was an attempt at some point to use the C++ extraction library from python using SWIG.  
 Sergi will contact Damien and Giacomo to try to get a unified API (python)
 
 **Action Graziano & Matteo**: Converge on a solution for a script to configure easily a bunch of attributes from a text
