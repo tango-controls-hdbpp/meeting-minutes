@@ -18,9 +18,9 @@ the answers with the HDB++ community.
 
 **Action - ALBA**: Sergi should guide Damien in implementing support for TimescaleDB in pytangoarchiving.
 Sergi should review the PR created by Damien on pytangoarchiving (https://github.com/tango-controls/PyTangoArchiving/pull/18).
-**Max IV is also interested in this development, they are invited to review https://github.com/tango-controls/PyTangoArchiving/pull/18 
+Max IV is also interested in this development, they are invited to review https://github.com/tango-controls/PyTangoArchiving/pull/18 
 which is a proposal from Damien for an AbstractReader.  
-Sergi will write the MySQL backend and review and approve https://github.com/tango-controls/PyTangoArchiving/pull/18.  
+Sergi will write the support for MySQL backend and review and approve https://github.com/tango-controls/PyTangoArchiving/pull/18.  
 Sergi will share the work with MaxIV for support with Cassandra.  
 Lorenzo said that the Python Extraction library should follow the concepts of the C++ extraction Library.  
 Some of these concepts are described at some point in this section of the documentation 
@@ -37,9 +37,9 @@ configuration file and push this solution to tango-controls-hdbpp Github organiz
 **Action - Alba**: Provide MariaDB container(s) for the HDB++ benchmarking suite.
 
 **Action - ESRF**: Share scripts used at ESRF to export data with MaxIV.
-**The scripts are now available on [hdbpp-timescale-project](https://github.com/tango-controls-hdbpp/hdbpp-timescale-project/tree/master/resources/cassandra-import) repository.
+**The scripts are now available on [hdbpp-timescale-project](https://github.com/tango-controls-hdbpp/hdbpp-timescale-project/tree/master/resources/cassandra-import) repository.**
 Graziano suggested during the meeting to have a look at [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html) 
-to help dealing with huge csv files. It was suggested to have a look at [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) to improve import performances in timescaledb.**
+to help dealing with huge csv files. It was suggested to have a look at [timescaledb-parallel-copy](https://github.com/timescale/timescaledb-parallel-copy) to improve import performances in timescaledb.
 
 **Action - ESRF (Damien):** Create a PR in libhdbpp project to add a skeleton implementation to guide developers who want to develop a new
 HDB++ library for their backend and add some documentation on readthedocs to document the process.
