@@ -1,6 +1,6 @@
 # HDB++ Teleconference Meeting - 2021/05/19
 
-To be held on 2021/05/19 at 11:00 CET on zoom.
+To be held on 2021/05/19 at 11:00 CEST on zoom.
 
 # Agenda
  
